@@ -1,0 +1,15 @@
+<students>
+<student>
+<name>Ali</name>
+<age>20</age>
+<score>19.75</score>
+</student>
+
+
+<student>
+<name>Sara</name>
+<age>23</age>
+<score>17</score>
+</student>
+</students>
+

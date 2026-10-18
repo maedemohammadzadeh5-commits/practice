@@ -1,0 +1,5 @@
+with open("players.txt", "w") as f:
+    f.write("Ali, 85, 6\n")
+    f.write("Sara, 95, 4\n")
+    f.write("Reza, 70, 7\n")
+    f.write("Mina, 60, 3\n")

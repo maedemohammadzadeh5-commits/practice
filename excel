@@ -1,0 +1,37 @@
+import csv
+
+with open("students.csv","r",encoding="utf-8")as file:
+    reader=csv.reader(file)
+
+    for row in reader:
+        print(row)
+
+
+
+
+
+import csv
+
+with open("students.csv","r",encoding="utf-8")as file:
+    reader=csv.DictReader(file)
+
+    for row in reader:
+        print(row["name"],row["score"])
+
+
+import csv
+
+with open("students.csv","w","new line",encoding="utf-8")as file:
+    writer=csv.writer(file)
+
+    writer=writerow(["name","age","score","numbers"])
+    writer=writerow(["Mehrane",15,20,79])
+    writer=writerow(["Shahin",22,18])
+
+
+
+
+
+
+
+  
